@@ -5,20 +5,20 @@ import { Send, Image, MessageSquare, Award, Trash2, ShieldAlert, Sparkles, Heart
 
 const PRESETS = [
   {
-    id: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Marco_Zero_Recife.jpg',
+    id: 'https://images.unsplash.com/photo-1628153401140-5477038e235e?auto=format&fit=crop&w=800&q=80',
     label: 'Marco Zero'
   },
   {
-    id: 'https://upload.wikimedia.org/wikipedia/commons/8/83/Recife_Antigo.jpg',
-    label: 'Recife Antigo'
+    id: 'https://images.unsplash.com/photo-1596738141905-51e94b519d69?auto=format&fit=crop&w=800&q=80',
+    label: 'Rua do Bom Jesus'
+  },
+  {
+    id: 'https://images.unsplash.com/photo-1512411995873-1fcfbf25539d?auto=format&fit=crop&w=800&q=80',
+    label: 'Bonecos Gigantes'
   },
   {
     id: 'https://images.unsplash.com/photo-1590073844006-33379778ae09?auto=format&fit=crop&w=800&q=80',
     label: 'Parque das Esculturas'
-  },
-  {
-    id: 'https://images.unsplash.com/photo-1582555762499-79aef45a42f6?auto=format&fit=crop&w=800&q=80',
-    label: 'Casarões Históricos'
   }
 ];
 

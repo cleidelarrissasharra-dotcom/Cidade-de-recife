@@ -4,14 +4,14 @@ export const LANDMARKS_DATA: Landmark[] = [
   {
     id: 'rosa-dos-ventos',
     name: 'Rosa dos Ventos de Cícero Dias',
-    shortDescription: 'O magnífico mosaico colorido que cobre o chão da praça do Marco Zero.',
-    longDescription: 'Inaugurado em 1999 como parte da revitalização do Recife Antigo, este mosaico monumental de 900 metros quadrados foi desenhado pelo célebre pintor pernambucano Cícero Dias. Inspirado em sua obra modernista, a Rosa dos Ventos traz cores vibrantes inspiradas no sol, mar e folhagens do nosso estado, integrando o imponente obelisco central. Ao redor, está escrita a famosa frase inspirada no historiador Capistrano de Abreu: "Aqui nasce o Brasil".',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Marco_Zero_Recife.jpg',
+    shortDescription: 'O magnífico mosaico colorido que cobre o chão da Praça Barão do Rio Branco (Marco Zero).',
+    longDescription: 'Inaugurado em 1999 como parte da revitalização do Recife Antigo, este mosaico monumental de 900 metros quadrados cobre a Praça Barão do Rio Branco, conhecida popularmente como Praça do Marco Zero. Desenhada pelo célebre pintor pernambucano Cícero Dias e inspirada em sua obra modernista, a Rosa dos Ventos traz cores vibrantes inspiradas no sol, mar e folhagens do nosso estado, integrando o imponente obelisco central que marca o quilômetro zero das estradas federais e estaduais do estado. Ao redor, está escrita a famosa frase de Capistrano de Abreu: "Aqui nasce o Brasil".',
+    image: 'https://images.unsplash.com/photo-1628153401140-5477038e235e?auto=format&fit=crop&w=1200&q=80',
     category: 'arte',
     year: '1999',
     author: 'Cícero Dias',
-    locationTip: 'Fica exatamente no centro da Praça Rio Branco (Marco Zero). Recomenda-se olhar de um ângulo elevado para ver o desenho completo.',
-    curiosity: 'Cícero Dias estava com 91 anos quando desenhou este piso. Ele fez o projeto diretamente de Paris, onde vivia, combinando influências do cubismo com o regionalismo nordestino.',
+    locationTip: 'Fica exatamente no centro da Praça Barão do Rio Branco (Marco Zero). Recomenda-se olhar de um ângulo elevado para ver o desenho completo.',
+    curiosity: 'A praça oficialmente se chama Praça Barão do Rio Branco, sendo o marco de fundação da cidade e do porto comercial de Pernambuco. Cícero Dias estava com 91 anos quando desenhou esse piso magnífico diretamente de Paris.',
     mapCoords: { x: 50, y: 55 }
   },
   {
@@ -44,12 +44,24 @@ export const LANDMARKS_DATA: Landmark[] = [
     name: 'Rua do Bom Jesus',
     shortDescription: 'Uma das ruas mais bonitas do mundo, cheia de cores, casarões e história.',
     longDescription: 'Votada pela revista norte-americana Architectural Digest como uma das ruas mais deslumbrantes do planeta, a antiga "Rua dos Judeus" abriga a Sinagoga Kahal Zur Israel, que é a primeira sinagoga das Américas, fundada no século XVII. Próxima a ela, a famosa estátua de bronze do cantor Chico Science saúda os pedestres com sua pose clássica de manguebeat.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/8/83/Recife_Antigo.jpg',
+    image: 'https://images.unsplash.com/photo-1596738141905-51e94b519d69?auto=format&fit=crop&w=1200&q=80',
     category: 'historia',
     year: 'Século XVII',
     locationTip: 'A apenas 150 metros da praça do Marco Zero, caminhando em direção ao norte.',
     curiosity: 'Durante a ocupação holandesa sob a liderança de Maurício de Nassau, a rua foi o polo financeiro e residencial mais importante dos mercadores judeus que chegaram de Amsterdã.',
     mapCoords: { x: 38, y: 15 }
+  },
+  {
+    id: 'bonecos-gigantes',
+    name: 'Embaixada dos Bonecos Gigantes',
+    shortDescription: 'Um espaço fantástico onde ficam expostos os famosos e expressivos bonecos carnavalescos.',
+    longDescription: 'Localizada no Recife Antigo, a Embaixada dos Bonecos Gigantes é o lar permanente de dezenas de personagens esculpidos com cabeças monumentais de argila e fibra de vidro. Esses gigantes de até 4 metros de altura representam figuras influentes da cultura nacional e internacional, do esporte à política, prontas para encantar os visitantes e ilustrar a essência da folia de Pernambuco o ano inteiro.',
+    image: 'https://images.unsplash.com/photo-1512411995873-1fcfbf25539d?auto=format&fit=crop&w=1200&q=80',
+    category: 'arte',
+    year: '2008',
+    locationTip: 'Fica na charmosa Rua do Bom Jesus, número 183. Perfeito para visitar em conjunto com a Sinagoga.',
+    curiosity: 'Cada boneco carnavalesco pode pesar em média 20 kg e requer grande habilidade e preparo físico do brincante que o carrega por baixo das vestes nas ladeiras de Olinda e avenidas do Recife.',
+    mapCoords: { x: 42, y: 22 }
   },
   {
     id: 'caixa-cultural',
