@@ -1,0 +1,6 @@
+{
+  "name": "Marco Zero - Recife",
+  "description": "Guia interativo e cultural sobre o Marco Zero do Recife e o bairro do Recife Antigo, destacando sua história, arte, atrações e curiosidades.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
